@@ -1,7 +1,7 @@
 # DJI-Tello-Lane-Following-with-Python-OpenCV-CNN-and-Behavioral-Clonning
 This is a Repository For all the .py files we needed to create the autonomous lane following program for the DJI Tello Edu
 
-A few words about the project.
+### A few words about the project.
 
 This is a replicated project from a masters subject from the University of West Attica in Greece. The original project was dealing the creation of a line following program using deep learning techniques.
 
@@ -12,7 +12,7 @@ Link to the original Project: https://aidl.uniwa.gr/students-projects/following-
 
 MsC program link: https://aidl.uniwa.gr/
 
-Instructions
+### Instructions
 
 1.	First make sure that the DJI Tello Edu drone, is able to connect with you computer via the wifi gate.
 Note: If not able to connect, please refer to the website of the DJI for troubleshooting.
@@ -29,7 +29,7 @@ Take that file and put it on Users->user->PycharmProjects
 5.	Go to pycharm and press file->open->PycharmProjects->tello_line_following
 6.	From the terminal of pycharm check witch version of Python you have: 
 python --version
-7.	Go to the terminal and write the following command: pip install -r requirments.txt
+7.	Go to the terminal and write the following command: ``` pip install -r requirments.txt ```
 8.	Alternatively open powercell or command line and with the cd command reach the path you have the file. You should see something like this C:\Users\user\PycharmProjects\tello_line_following> 
 Then write the pip install -r requirments.txt
 
