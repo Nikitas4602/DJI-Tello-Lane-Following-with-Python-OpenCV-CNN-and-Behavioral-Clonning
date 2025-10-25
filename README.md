@@ -32,11 +32,14 @@ Take that file and put it on Users->user->PycharmProjects
 5.	Go to pycharm and press file->open->PycharmProjects->tello_line_following
 6.	From the terminal of pycharm check witch version of Python you have: 
 python --version
-7.	Go to the terminal and write the following command: ``` pip install -r requirments.txt ```
+7.	Go to the terminal and write the following command:
+  
+  ```` pip install -r requirments.txt ````
+
 8.	Alternatively open powercell or command line and with the cd command reach the path you have the file. You should see something like this C:\Users\user\PycharmProjects\tello_line_following> 
 Then write the pip install -r requirments.txt
 
-10.	Then open the file collect_data.py. By opening it and hitting run, the stream shoud open and the drone should start flying.
+9.	Then open the file collect_data.py. By opening it and hitting run, the stream shoud open and the drone should start flying.
 By pressing the keyboard keys:
 
 •	A: Stears to the Left
@@ -62,14 +65,16 @@ Every session_YYYY-MM-DD_HH-MM-Seconds indicates the time, day, month, year the 
 
 Every new run is a new session.
 
-12.	Open the train.py file.
-On line with the code:
-```
+10.	Open the train.py file.
+
+Find the line with the code:
+
+````
 SESSION_PATH = Path("data\session")
-```
+````
 Inside the :“”, put the path of the session you want the data  to use in order to train the CNN network.
 
-15.	Run the train.py file and let it run. It might take a while…
+11.	Run the train.py file and let it run. It might take a while…
 
 Note: By default we set the epochs at 150 because we hat large numbers of samples (more than 12.000). 
 
@@ -81,6 +86,6 @@ For 13.000> samples -> 150 to 180 epochs
 
 These numbers are not binding and depending the case you will have to adjust depending the results of the confusion matrix to avoid overfitting and underfitting.
 
-16.	Open the Iinference.py file and run. This file will take the latest policy that was trained in the previous step. To avoid conflict we keep only the latest policy. After every training the previous one is overwritten.
+12.	Open the Iinference.py file and run. This file will take the latest policy that was trained in the previous step. To avoid conflict we keep only the latest policy. After every training the previous one is overwritten.
 
-17.	Everything is done!!!
+13.	Everything is done!!!
