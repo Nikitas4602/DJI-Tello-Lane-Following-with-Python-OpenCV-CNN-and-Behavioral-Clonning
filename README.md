@@ -54,7 +54,7 @@ By pressing the keyboard keys:
 
     •	Down Arrow: Decreases the Altitude
 
-9a.  If you want to change the parameters. 
+  9a.  If you want to change the parameters. 
 
 Open the file with the name config.py. 
 
