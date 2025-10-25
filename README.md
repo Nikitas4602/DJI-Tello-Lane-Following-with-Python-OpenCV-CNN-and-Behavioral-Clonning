@@ -13,7 +13,7 @@ On the contrary this is a first attempt of a student that aspires to finish his 
 
 Link to the original Project: https://aidl.uniwa.gr/students-projects/following-a-track-with-a-dji-tello-drone-using-deep-learning/
 
-MsC program link: https://aidl.uniwa.gr/
+MSc program link: https://aidl.uniwa.gr/
 
 ### Instructions
 
