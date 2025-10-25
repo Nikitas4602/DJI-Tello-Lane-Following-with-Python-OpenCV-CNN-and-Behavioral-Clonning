@@ -38,7 +38,7 @@ python --version
     pip install -r requirments.txt
   	````
 
-9.	Alternatively open powercell or command line and with the cd command reach the path you have the file. You should see something like this C:\Users\user\PycharmProjects\tello_line_following> 
+9.	Alternatively open powercell or command line and with the cd command reach the path you have the file. You should see something like this  ```C:\Users\user\PycharmProjects\tello_line_following> ```
 Then write the pip install -r requirments.txt
 
 10.	Then open the file collect_data.py. By opening it and hitting run, the stream shoud open and the drone should start flying.
@@ -63,7 +63,8 @@ Then change the parameter needed to the desired goal.
 When the drone starts to fly imedietlty begins to take samples of the circuit. 
 
 The samples are all stored in the directory :
-C:\Users\user\PycharmProjects\tello_line_following\data\session_YYYY-MM-DD_HH-MM-Seconds
+
+```C:\Users\user\PycharmProjects\tello_line_following\data\session_YYYY-MM-DD_HH-MM-Seconds```
 
 Every session_YYYY-MM-DD_HH-MM-Seconds indicates the time, day, month, year the flight took place.
 
