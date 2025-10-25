@@ -34,12 +34,14 @@ Take that file and put it on Users->user->PycharmProjects
 python --version
 7.	Go to the terminal and write the following command:
   
-  ```` pip install -r requirments.txt ````
+    ````
+    pip install -r requirments.txt
+  	````
 
-8.	Alternatively open powercell or command line and with the cd command reach the path you have the file. You should see something like this C:\Users\user\PycharmProjects\tello_line_following> 
+9.	Alternatively open powercell or command line and with the cd command reach the path you have the file. You should see something like this C:\Users\user\PycharmProjects\tello_line_following> 
 Then write the pip install -r requirments.txt
 
-9.	Then open the file collect_data.py. By opening it and hitting run, the stream shoud open and the drone should start flying.
+10.	Then open the file collect_data.py. By opening it and hitting run, the stream shoud open and the drone should start flying.
 By pressing the keyboard keys:
 
 •	A: Stears to the Left
