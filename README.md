@@ -44,20 +44,22 @@ Then write the pip install -r requirments.txt
 10.	Then open the file collect_data.py. By opening it and hitting run, the stream shoud open and the drone should start flying.
 By pressing the keyboard keys:
 
-•	A: Stears to the Left
+    •	A: Stears to the Left
 
-•	D: Stears to the Right
+    •	D: Stears to the Right
 
-•	S: Stops the drone and allow it to hover.
+    •	S: Stops the drone and allow it to hover.
 
-•	Up Arrow: Increases the Altitude
+    •	Up Arrow: Increases the Altitude
 
-•	Down Arrow: Decreases the Altitude
+    •	Down Arrow: Decreases the Altitude
 
 9a.  If you want to change the parameters. 
 
 Open the file with the name config.py. 
+
 Then change the parameter needed to the desired goal.
+
 When the drone starts to fly imedietlty begins to take samples of the circuit. 
 
 The samples are all stored in the directory :
@@ -80,13 +82,13 @@ Inside the :“”, put the path of the session you want the data  to use in ord
 
 Note: By default we set the epochs at 150 because we hat large numbers of samples (more than 12.000). 
 
-For 6.000 to 9.000 samples ->100 to 130 epochs 
+  • For 6.000 to 9.000 samples ->100 to 130 epochs 
 
-For 9.000 to 13.000 samples ->130 to 150 epochs
+  • For 9.000 to 13.000 samples ->130 to 150 epochs
 
-For 13.000> samples -> 150 to 180 epochs
+  • For 13.000> samples -> 150 to 180 epochs
 
-These numbers are not binding and depending the case you will have to adjust depending the results of the confusion matrix to avoid overfitting and underfitting.
+ These numbers are not binding and depending the case you will have to adjust depending the results of the confusion matrix to avoid overfitting and underfitting.
 
 12.	Open the Iinference.py file and run. This file will take the latest policy that was trained in the previous step. To avoid conflict we keep only the latest policy. After every training the previous one is overwritten.
 
