@@ -1,0 +1,9 @@
+djitellopy>=2.5.0
+opencv-python>=4.9.0
+numpy>=1.26
+torch>=2.2
+torchvision>=0.17
+pynput>=1.7
+pandas>=2.2
+# Προαιρετικό: μόνο αν θες να χρησιμοποιήσεις get_frame_read()
+# av==10.0.0
